@@ -10,8 +10,8 @@ function Prime(num) {
          isprime = "Yes";
     }else{
         for(let x = 2 ; x < num ; x++){
-            if(num % x === 0){
-                isprime = " ";
+            if(num % x == 0){
+                isprime = "No";
                 
             }
         }
